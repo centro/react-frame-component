@@ -20,8 +20,7 @@
     "prepublish": "npm run build",
     "predeploy": "webpack",
     "deploy": "gh-pages -d dist",
-    "publish": "npm run deploy",
-    "postinstall": "cd ./node_modules/react-frame-component && npm install && npm run build && npm run predeploy"
+    "publish": "npm run deploy"
   },
   "repository": {
     "type": "git",
